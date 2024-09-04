@@ -90,3 +90,9 @@ const config = () => {
 }
 
 export default config
+const config = () => {
+   return defineConfig({
+      base: '/chitchatter/',
+      build: {
+       ...
+}
